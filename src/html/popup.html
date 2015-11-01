@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Главное меню</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/popup.css">
+        <script type="text/javascript" src="../libs/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="../libs/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <a class="close container-fluid btn-close">×</a>   
+            </div>            
+            <div class="wrap">
+                <div id="groups-target">
+                </div>
+                <form role="form" id="popup-settings">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="vkGroupUrl" 
+                               placeholder="Адрес или короткое имя паблика/сообщества">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <button type="submit" class="btn btn-success btn-subscribe">Подписаться</button>            
+                        </div>
+                    </div>
+                    <div class="display-info-wrap">                         
+                        <p class="display-info text-center">
+                            Если оставить поле пустым, то путь будет автоматически взят из адресной строки
+                        </p>
+                    </div>
+                </form>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <button type="button" class="btn btn-xs btn-warning btn-remove">Удалить все входящие оповещения</button>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <script type="text/javascript" src="../js/popup.js"></script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+body{
+    width: 400px;
+}
+
+.container-fluid{
+    padding-bottom: 15px;
+}
+
+.wrap{
+    margin-right: 5px;
+}
+
+.btn{
+    width: 100%;
+}
+
+.btn-close{
+    padding: 0 5px;
+}
+
+ul{
+    margin-left: 0; 
+    padding-left: 0;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.form-group{
+    margin-bottom: 10px !important;
+}
+
+.display-info-wrap{
+    min-height: 40px;
+    margin: 10px 0;
+}
+
+.display-info{
+    color: #999;    
+    display: table-cell;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.group-title{
+    padding-right: 0;
+    max-height: 20px;
+}
+
+.text-overflow{
+    display: block; 
+    white-space: nowrap;  
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
