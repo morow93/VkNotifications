@@ -1,4 +1,3 @@
-#Chrome Extension (VK Notifications)
+##Chrome Extension (VK Notifications)
 ------
-##Notifies about added news in the VK groups
-------
+###Notifies about added news in the VK groups
